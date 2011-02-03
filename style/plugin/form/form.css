@@ -1,0 +1,53 @@
+input:focus,
+textarea:focus
+{
+	outline: none;
+}
+
+label
+{
+	cursor: hand;
+	cursor: pointer;
+}
+
+textarea,
+input
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+legend
+{
+	line-break: normal;
+	display: block !important;
+	max-width: 100%;
+}
+
+/* align checkboxes, radios, text inputs with their label */
+
+input[type="radio"] 
+{ 
+  vertical-align: text-bottom; 
+}
+
+input[type="checkbox"] 
+{ 
+  vertical-align: bottom; 
+  *vertical-align: baseline; 
+}
+
+.ie6 input 
+{ 
+  vertical-align: text-bottom; 
+}
+
+/* hand cursor on clickable input elements */
+label, 
+input[type=button], 
+input[type=submit], 
+button 
+{ 
+  cursor: pointer;
+}

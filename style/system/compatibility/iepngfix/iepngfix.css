@@ -1,0 +1,5 @@
+.lt-ie7 img,
+.lt-ie7 i
+{
+	behavior: url("style/compatibility/iepngfix/iepngfix.htc");
+}
