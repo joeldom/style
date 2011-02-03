@@ -1,0 +1,250 @@
+body,
+button
+{
+	font-family: Helvetica, "Lucida Grande", Arial, Verdana, sans-serif;
+}
+
+p
+{
+	font-size: 1em;
+}
+
+/* Spacing */
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+ul, 
+ol,
+dl, 
+p,
+blockquote
+{
+}
+
+img
+{
+	padding-bottom: 0;
+}
+
+/* bicubic resizing for non-native sized IMG:
+2 code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
+.ie7 img 
+{ 
+  -ms-interpolation-mode: bicubic; 
+}
+ 
+
+table h1, 
+table h2, 
+table h3, 
+table h4, 
+table h5, 
+table h6, 
+table ul, 
+table ol,
+table dl, 
+table p,
+table blockquote,
+table address,
+table pre,
+table code
+{
+	padding:0;
+}
+
+/* Element */
+
+img
+{
+	display: block;
+	-moz-box-sizing: border-box;  
+	-webkit-box-sizing: border-box;  
+	box-sizing: border-box;
+}
+
+em
+{
+	font-style: italic;
+}
+
+strong
+{
+	font-weight: bold;
+}
+
+dfn
+{
+	font-style: italic;
+}
+
+hr
+{
+	border: 1px solid;
+	border-width: 0 0 1px 0;
+}
+
+var
+{
+	font-family: Georgia, Utopia, Palatino, 'Palatino Linotype', serif;
+}
+
+cite
+{
+	font-family: Georgia, Utopia, Palatino, 'Palatino Linotype', serif;
+	font-style: italic;
+}
+
+abbr
+{
+	border-bottom: 1px dotted;
+}
+
+acronym
+{
+	border-bottom: 1px dotted
+}
+
+address
+{
+	
+}
+
+}
+
+cite
+{
+	font-family: Georgia, Utopia, Palatino, 'Palatino Linotype', serif;
+	font-style: italic;
+}
+
+abbr
+{
+	border-bottom: 1px dotted;
+}
+
+acronym
+{
+	border-bottom: 1px dotted
+}
+
+address
+{
+	
+}
+
+sup,
+sub {
+	height: 0;
+	line-height: 1;
+	vertical-align: baseline;
+	_vertical-align: bottom;
+	position: relative;
+	
+}
+
+sup {
+	bottom: 1ex;
+}
+
+sub {
+	top: .5ex;
+}
+
+/* Heading */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+	text-rendering: optimizeLegibility;
+	font-weight:normal; 
+  font-style: normal; 
+}
+
+/* Link */
+
+a
+{
+	text-decoration: underline;
+	outline: 0;
+}
+
+/* List */
+
+ol li
+{
+	list-style-type: decimal;
+}
+
+ul li
+{
+	list-style-type: disc;
+}
+
+/* Media */
+
+/* ====== media ====== */
+
+.media 
+{
+}
+.media, .bd 
+{
+	overflow:hidden; 
+	_overflow:visible; 
+	zoom:1;
+}
+.media .object 
+{
+	float:left; 
+	margin-right: 10px;
+}
+.media .object img
+{
+	display:block;
+}
+.media .rightObject
+{
+	float:right; 
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+/* Align + float */
+.alignLeft
+{
+	text-align: left !important;
+}
+
+.alignCenter
+{
+	text-align: center !important;
+}
+
+.alignRight
+{
+	text-align: right !important;
+}
+
+.floatLeft
+{
+	float: left !important;
+}
+
+.floatRight
+{
+	float: right !important;
+}
+
+/* Hide elements */
+.hide
+{
+	display: none;
+}

@@ -1,0 +1,53 @@
+/* Inspired by Kevin Miller's Simply Buttons (http://www.p51labs.com/simply-buttons-v2/) */
+
+button,
+a.button,
+a.button:link,
+a.button:visited
+{
+	/* Strip down the button and link elements to a base we can work with. */
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	border: none;
+	display: block;
+	float: left;
+	cursor: pointer;
+	text-decoration: none;
+	outline: none;
+	white-space: nowrap;
+	overflow: hidden;
+	-moz-box-sizing: border-box;  
+	-webkit-box-sizing: border-box;  
+	box-sizing: border-box;
+}
+
+* html a.button,
+* html a.button:link,
+* html a.button:visited
+{
+	/* IE6 fix to make link fit text. */
+	width: 1%;
+}
+
+button,
+x:-moz-any-link
+{
+	/* FF fix to make button spacing even across browsers. */
+	margin: 0 0 0 0;
+}
+
+*:first-child+html button
+{
+	/* Reset IE7 back to what it was for previous fix. */
+	margin: 0 3px 0 3px;
+}
+
+button b,
+a.button b,
+a.button:link b,
+a.button:visited b
+{
+	/* Set the b tags to display: block, as they will work our background-image magic. */
+	display: block;
+	font-size: 100%;
+}
