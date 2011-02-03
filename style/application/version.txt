@@ -1,0 +1,7 @@
+Application: Default
+Theme URI: http://www.luyfel.nl
+Description: Default skin.
+Author: Luyfel
+Author URI: http://www.luyfel.nl
+
+Version: 1.0 
