@@ -1,3 +1,3 @@
 ## Style
 
-Object Orientated CSS library for rapid development!
+Object Orientated CSS library for rapid development
