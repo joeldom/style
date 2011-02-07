@@ -16,6 +16,7 @@ Author URI: http://www.luyfel.nl/
 
   /* @group Skin */
   
+  	@import url('application/content/grid.css');
     @import url('application/content/content.css');
     
   /* @end */
