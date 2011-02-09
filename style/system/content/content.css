@@ -188,6 +188,11 @@ ul li
 	list-style-type: disc;
 }
 
+li
+{
+	list-style-position: inside;
+}
+
 /* Media */
 
 /* ====== media ====== */
