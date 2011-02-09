@@ -18,7 +18,7 @@
 	*float: left;
 }
 
-.horizontalNavigation
+.navigation-horizontal
 {
 	float: left;
 	width: 100%;
@@ -26,7 +26,7 @@
 	position: relative;
 }
 
-.horizontalNavigation ul
+.navigation-horizontal ul
 {
 	clear: left;
 	float: left;
@@ -35,19 +35,19 @@
 	text-align: center;
 }
 
-.horizontalNavigation li
+.navigation-horizontal li
 {
 	display: block;
 	float: left;
 	position: relative;
 }
 
-.horizontalNavigation a
+.navigation-horizontal a
 {
 	display: block;
 }
 
-.horizontalNavigation:after
+.navigation-horizontal:after
 {
 	clear: both;
 	display: block;
