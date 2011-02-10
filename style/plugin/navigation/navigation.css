@@ -1,4 +1,5 @@
-.navigation ul
+.navigation ul,
+.navigation ol
 {
 	padding: 0;
 	margin: 0;
@@ -26,7 +27,8 @@
 	position: relative;
 }
 
-.navigation-horizontal ul
+.navigation-horizontal ul,
+.navigation-horizontal ol
 {
 	clear: left;
 	float: left;
