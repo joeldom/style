@@ -200,7 +200,7 @@ li
 .media 
 {
 }
-.media, .bd 
+.media, .media .bd 
 {
 	overflow:hidden; 
 	_overflow:visible; 
