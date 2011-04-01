@@ -1,5 +1,6 @@
 head.js(
   // System
+  {modernizr: "style/system/modernizr.min.js"},
   {iepngfix_tilebg: "style/system/compatibility/iepngfix/iepngfix_tilebg.js"},
   // Plugin
   {metadata: "style/plugin/metadata/metadata.js"},
