@@ -8,11 +8,7 @@ Author URI: http://www.luyfel.nl/
 
 /* @group System */
 
-  @import url('system/library/library.css');
-  @import url('system/grid/grid.css');
-  @import url('system/template/template.css');
-  @import url('system/content/content.css');
-  @import url('system/module/module.css');
+  @import url('system/system.css');
 
   /* @group Skin */
   
@@ -25,18 +21,8 @@ Author URI: http://www.luyfel.nl/
 
 /* @group Plugin */
 
-  @import url('plugin/button/button.css');
-
   /* @group Skin */
 
   /* @end */
-
-/* @end */
-
-/* Compatibility */
-
-/* @group Compatibility */
-  
-    @import url('system/compatibility/iepngfix/iepngfix.css');
 
 /* @end */
