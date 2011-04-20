@@ -82,8 +82,11 @@ dfn
 
 hr
 {
-	border: 1px solid;
-	border-width: 0 0 1px 0;
+	margin: 20px 0;
+	height: 0;
+	clear: both;
+	border: solid #ddd;
+	border-width: 1px 0 0;
 }
 
 var
