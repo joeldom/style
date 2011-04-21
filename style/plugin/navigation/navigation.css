@@ -60,3 +60,9 @@
 	font-size: xx-large;
 	content: " x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";
 }
+
+.navigation-right ul,
+.navigation-right ol
+{
+	float: right;
+}
