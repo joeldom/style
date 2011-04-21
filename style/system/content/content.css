@@ -214,53 +214,73 @@ li
 
 /* ====== media ====== */
 
-.media 
+.media:after, 
+.bd:after
 {
-}
-.media, .media .bd 
-{
-	overflow:hidden; 
-	_overflow:visible; 
-	zoom:1;
-}
-.media .object 
-{
-	float:left; 
-	margin-right: 10px;
-}
-.media .object img
-{
-	display:block;
-}
-.media .rightObject
-{
-	float:right; 
-	margin-left: 10px;
-	margin-right: 0;
+	clear: both;
+	display: block;
+	visibility: hidden;
+	overflow: hidden;
+	height: 0 !important;
+	line-height: 0;
+	font-size: xx-large;
+	content: " x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";
 }
 
+.media .bd
+{
+	display: table-cell; 
+	zoom: 1;
+}
+
+.media .bd > :first-child
+{
+	margin-top: 0;
+}
+.media .bd > :last-child
+{
+	margin-bottom: 0;
+}
+.media .object
+{
+	float: left; 
+	margin-right: 15px;
+}
+
+.media .object img
+{
+	display: block;
+}
+
+.media .object-ext
+{
+	float: right; 
+	margin-left: 15px;
+}
+
+
 /* Align + float */
-.alignLeft
+.align-left
 {
 	text-align: left !important;
 }
 
-.alignCenter
+.align-center
 {
 	text-align: center !important;
 }
 
-.alignRight
+.align-right
 {
 	text-align: right !important;
 }
 
-.floatLeft
+.float-left
 {
 	float: left !important;
 }
 
-.floatRight
+.float-right
 {
 	float: right !important;
 }
