@@ -13,5 +13,6 @@ Author URI: http://www.luyfel.nl/
   @import url('template/template.css');
   @import url('content/content.css');
   @import url('module/module.css');
+  @import url('debug/holmes.css');
 
 /* @end */
